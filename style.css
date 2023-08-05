@@ -1,0 +1,152 @@
+/* body */
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+#navbar {
+    background-color: white;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+#logo {
+    align-self: flex-start;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+/* logo */
+#loGo:hover {
+    filter: drop-shadow(5px 5px 5px black);
+    cursor: pointer;
+}
+
+/* headline */
+header {
+    text-align: center;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+/* Navigation bar */
+#menus {
+    height: 55px;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    padding: 5px;
+    font-size: 20px;
+    gap: 20px;
+    background-color: rgb(17, 13, 82);
+
+    /*changed things*/
+    position: sticky;
+    top: 0;
+    right: 0px;
+    left: 0px;
+    border-radius: 2px;
+}
+
+#menus a {
+    text-decoration: none;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    padding: 10px 22px;
+}
+
+#menus a:hover {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 13px 13px 13px 13px;
+    color: rgb(175, 223, 235);
+    background-color: rgba(11, 11, 123, 0.677);
+}
+
+/* #menus a:hover {
+    background-color: rgba(255, 245, 255, 0.2);
+    border-bottom-color: #abcdef;
+}
+#menus a {
+    color: #F5F5F5;
+    font-size: 0.8889em;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 0.125em;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    padding: 10px 22px;
+    transition: border-bottom-color 50ms linear 0s;
+} */
+/* contact info */
+
+/* media_queries */
+@media (max-width:1024px) and (min-width:304px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:768px) and (min-width:304px) {
+    h1 {
+        font-size: 21px;
+    }
+}
+
+@media (max-width:426px) {
+    h1 {
+        font-size: 21px;
+    }
+
+    #imgs {
+        display: none;
+    }
+}
+
+/* hunger_styling */
+
+
+            /*changed things*/
+.hunger{
+    display: flex;
+    justify-content: space-evenly;
+    /* below contents are not necessory */
+    margin-top: 80px; 
+    margin-bottom: 80px; 
+}
+#hunger_img {
+    width: 30%;
+    size: 50px;
+    border-radius: 20px;
+}
+
+#content1{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+
+    /* below contents are not necessory */
+    font-size: xx-large;
+   
+}
